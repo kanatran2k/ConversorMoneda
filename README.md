@@ -9,7 +9,8 @@ Ideal para usuarios que necesitan hacer conversiones rápidas.
 ## 📌 Descripción
 
 Este convertidor de monedas es una herramienta interactiva desarrollada en **Java**, que permite al usuario realizar conversiones entre 6 distintas divisas mediante una interfaz de menú sencilla. 
-Al iniciar, el programa da la bienvenida al usuario y muestra un **menú con 6 opciones de monedas** para elegir tanto la moneda de origen como la de destino. El usuario ingresa un monto y recibe inmediatamente el resultado de la conversión. 
+Al iniciar, el programa da la bienvenida al usuario y muestra un **menú con 6 opciones de monedas** para elegir tanto la moneda de origen como la de destino.
+El usuario ingresa un monto y recibe inmediatamente el resultado de la conversión. 
 Para salir, basta con ingresar la opción **8**, momento en el que el sistema muestra un mensaje de despedida simple.
 
 Además, **cada conversión se registra automáticamente** en un Arreglo de Historial para llevar un control detallado del usuario.
@@ -19,22 +20,14 @@ Además, **cada conversión se registra automáticamente** en un Arreglo de Hist
 ## 🔑 Características Principales
 
 - **Bienvenida personalizada**: Mensaje inicial claro y amigable al iniciar la aplicación.
-- **Menú interactivo con 90+ monedas**: Selección numerada de monedas de origen y destino.
+- **Menú interactivo con 6 monedas**: Selección numerada de monedas de origen y destino.
 - **Conversión dinámica en tiempo real**:
   - Ingreso de monto a convertir.
-  - Resultado detallado: `Moneda Origen → Moneda Destino | Monto → Valor Convertido`.
+  - Resultado detallado: `Moneda Origen → Moneda Destino `.
 - **Flujo continuo**: Permite realizar múltiples conversiones sin reiniciar la aplicación.
-- **Finalización controlada**: Al ingresar la opción **100**, el programa termina mostrando:  
-- **Validación robusta de entradas**:
-  - Si se ingresa un valor no numérico:  
-    `⚠️ Información no válida. Por favor...`
-- **Manejo de excepciones**:
-  - Control de errores en la conexión a la API (timeout, servicio no disponible, etc.).
-  - Mensajes amigables que informan claramente el tipo de error.
-- **Registro persistente en JSON**:
-  - Cada conversión se guarda en `historial_conversiones.json`.
-  - Estructura por fecha con: moneda origen, moneda destino, monto, resultado y hora exacta.
-
+- **Finalización controlada**: Al ingresar la opción **8**, el programa termina mostrando:  
+- - **Manejo de excepciones**:
+  - Control de errores en la conexión a la API.
 ---
 
 ## 🛠️ Tecnologías Utilizadas
@@ -62,4 +55,5 @@ Además, **cada conversión se registra automáticamente** en un Arreglo de Hist
 📬 Contacto
 Escrito por Nelson Torres
 📧 Correo: nelson.torres.lagos@gmail.com
+
 
