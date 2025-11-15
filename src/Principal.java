@@ -43,7 +43,6 @@ public class Principal {
                 }
 
                 Convertidor resultado = api.obtenerTasa(monedaBase, monedaDestino);
-                System.out.println("Tasa de Conversion Utilizada: " + resultado.getConversion_rate());
 
                 if (resultado != null) {
                     // Calcular la conversión final y enviar al Convertidor
