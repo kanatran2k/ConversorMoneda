@@ -39,7 +39,7 @@ Además, **cada conversión se registra automáticamente** en un Arreglo de Hist
 | **IDE**             | IntelliJ IDEA Community |
 | **Control de versiones** | Git y GitHub |
 | **Sistema Operativo** | Windows 11 |
-| **Librerías Java**  | `Scanner`, `FileWriter`, `FileReader`, `Gson` (para JSON), manejo de excepciones personalizadas |
+| **Librerías Java**  | `Scanner`, `Gson` (para JSON), manejo de excepciones personalizadas |
 | **Conceptos aplicados** | Clases, encapsulamiento, herencia, bucles (`do-while`), manejo de arrays, getters/setters, validaciones|
 
 ---
@@ -52,8 +52,7 @@ Además, **cada conversión se registra automáticamente** en un Arreglo de Hist
 4. Ejecuta la clase principal y sigue las instrucciones en pantalla.
 
 
-📬 Contacto
-Escrito por Nelson Torres
-📧 Correo: nelson.torres.lagos@gmail.com
+📬 Contacto: nelson.torres.lagos@gmail.com
+
 
 
